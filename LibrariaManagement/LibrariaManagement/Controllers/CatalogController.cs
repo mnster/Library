@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 using LibrariaManagement.Models.Catalog;
-using LibrariaManagement.Models.Checkout;
+using LibrariaManagement.Models.CheckoutModels;
 using LibraryData;
 using Microsoft.AspNetCore.Mvc;
 
