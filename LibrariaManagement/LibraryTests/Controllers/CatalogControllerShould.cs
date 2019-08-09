@@ -363,7 +363,7 @@ namespace Library.Tests.Controllers
                 Name = "Hawkins Library"
             });
             mockLibraryAssetService.Setup(r => r.GetAuthorOrDirector(24)).Returns("Virginia Woolf");
-            mockLibraryAssetService.Setup(r => r.GetById(24)).Returns(new LibraryCard()
+            mockLibraryAssetService.Setup(r => r.GetById(24)).Returns(new LibraryCard
             {
                 Id = 1
             });
