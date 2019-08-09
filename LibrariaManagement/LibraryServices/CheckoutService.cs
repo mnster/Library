@@ -23,7 +23,7 @@ namespace LibraryServices
             _context.SaveChanges();
         }
 
-                public Checkout Get(int id)
+        public Checkout Get(int id)
         {
             return _context.Checkouts.FirstOrDefault(p => p.Id == id);
         }

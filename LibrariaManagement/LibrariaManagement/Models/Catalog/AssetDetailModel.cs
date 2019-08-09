@@ -6,7 +6,7 @@ namespace LibrariaManagement.Models.Catalog
 {
     public class AssetDetailModel
     {
-        public int AsssetId { get; set; }
+        public int AssetId { get; set; }
         public string Title { get; set; }
         public string AuthorOrDirector { get; set; }
         public string Type { get; set; }
@@ -26,6 +26,6 @@ namespace LibrariaManagement.Models.Catalog
     public class AssetHoldModel
     {
         public string PatronName { get; set; }
-        public DateTime HoldPlaced { get; set; }
+        public string HoldPlaced { get; set; }
     }
 }
